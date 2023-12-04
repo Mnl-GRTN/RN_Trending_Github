@@ -20,7 +20,7 @@ export const DetailsRepo = ({route, navigation}) => {
 
     const getRepoInfoFromApiAsync = async () => {
         try {
-            const token = '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';
+            const token = 'YOUR_TOKEN_HERE';
             const requestOptions = {
                 headers: {
                     Authorization: `Bearer ${token}`,
